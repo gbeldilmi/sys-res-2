@@ -25,6 +25,11 @@ Point de montage | Taille  | Type | Description
 /public          | 20 GB   | ext4 | Linux Filesystem
 swap             | 4 GB    | swap | Linux Swap
 
+#### Utilisateurs
+
+- root
+- u
+
 ### Configuration
 
 - Installer les paquets suivants : `git`
