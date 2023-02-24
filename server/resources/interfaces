@@ -25,7 +25,9 @@ iface enp3s0 inet static
     address 42.42.42.1/24
 
 # Routes
-up ip route add 60.60.3.0/24 via 192.168.2.3 dev enp1s0
+up ip route add -net 71.71.1.0/24 gw 192.168.2.2
+up ip route add -net 60.60.3.0/24 gw 192.168.2.3
+up ip route add -net 10.5.2.0/24 gw 192.168.2.4
 
 # iptables
 iptables-restore < /etc/iptables/rules.v4
