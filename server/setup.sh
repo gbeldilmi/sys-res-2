@@ -14,9 +14,9 @@ sysctl -p
 # Set up iptables
 iptables -F
 iptables -X
-iptables -P INPUT DROP
-iptables -P FORWARD DROP
-iptables -P OUTPUT DROP
+iptables -P INPUT ACCEPT # DROP
+iptables -P FORWARD ACCEPT # DROP
+iptables -P OUTPUT ACCEPT # DROP
 
 iptables -A INPUT -i lo -j ACCEPT
 iptables -A OUTPUT -o lo -j ACCEPT
