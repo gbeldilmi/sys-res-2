@@ -8,7 +8,7 @@ apt install -y isc-dhcp-server iptables net-tools
 cp ./resources/interfaces /etc/network/interfaces
 cp ./resources/sysctl.conf /etc/sysctl.conf
 sysctl -p
-systemctl restart networking.service
+#systemctl restart networking.service
 
 
 # Set up iptables
