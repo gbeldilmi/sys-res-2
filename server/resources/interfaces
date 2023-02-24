@@ -28,6 +28,7 @@ iface enp3s0 inet static
 up ip route add -net 71.71.1.0/24 gw 192.168.2.2
 up ip route add -net 60.60.3.0/24 gw 192.168.2.3
 up ip route add -net 10.5.2.0/24 gw 192.168.2.4
+up ip route add default gw 172.31.20.1
 
 # iptables
 iptables-restore < /etc/iptables/rules.v4
