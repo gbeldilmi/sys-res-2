@@ -46,4 +46,5 @@ cp ./resources/dhcpd.conf /etc/dhcp/dhcpd.conf
 service isc-dhcp-server restart
 
 
+reboot
 
