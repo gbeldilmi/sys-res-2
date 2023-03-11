@@ -29,15 +29,4 @@ swap             | 4 GB    | swap | Linux Swap
 
 - root
 - u
-
-### Configuration
-
-- Installer les paquets suivants : `git`
-- Cloner ce dépot
-- Lancer le script d'installation et de configuration : [server/setup.sh](server/setup.sh)
-
-## Configuration du client
-
-- Installer les paquets suivants : `git`
-- Cloner ce dépot
-- Lancer le script d'installation et de configuration : [client/setup.sh](client/setup.sh)
+- web1 (/srv/web1)
