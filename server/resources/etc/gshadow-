@@ -54,3 +54,4 @@ ssl-cert:!::
 web2:!::
 web1:!::
 avahi:!::
+geoclue:!::

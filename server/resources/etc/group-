@@ -54,3 +54,4 @@ ssl-cert:x:112:
 web2:x:1002:
 web1:x:1003:
 avahi:x:113:
+geoclue:x:114:
